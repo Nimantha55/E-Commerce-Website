@@ -1,0 +1,232 @@
+/* CSS Document */
+
+.card{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	height: 550px;
+	max-height: 600px;
+}
+.btnCart{
+	transition: all .3s;
+}
+.btnCart:hover{
+	transform: translateY(2px);
+}
+.productImg{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.5);
+	background: radial-gradient(white 5%, rgba(0,0,0,0.5) 95%);
+}
+#cart_count{
+	text-align: center;
+	padding: 0 0.9rem 0.1rem 0.9rem;
+	border-radius: 3rem;
+}
+.shopping-cart{
+	padding: 3% 0;
+}
+.shadow{
+	box-shadow: 2px 3px 2px 2px rgba(0,0,0,0.5);
+	border-radius: 0.5%;
+}
+.price-details h6{
+	padding: 3% 2%;
+}
+/*.hero-section {*/
+/*	height: 900px;*/
+/*	padding-top: 260px;*/
+/*	display: block;*/
+/*	background-image: url("../img/background.jpg");*/
+/*	background-size: cover;*/
+/*	background-color: #f3f7f9;*/
+/*	background-position: right top;*/
+/*	background-repeat: no-repeat;*/
+/*	position: relative;*/
+/*	overflow: hidden;*/
+/*}*/
+.hero-section .laptop-image {
+	width: 685px;
+	max-width: none;
+	position: relative;
+	left: 80px;
+}
+.hero-text {
+	padding-top: 60px;
+}
+.hero-text h2 {
+	font-size: 70px;
+	margin-bottom: 35px;
+	color: #ffffff;
+}
+.hero-text h2 span {
+	color: #16d0c5;
+}
+.hero-text h4 {
+	color: #75849a;
+	font-size: 22px;
+}
+.setCenter{
+	text-align: center;
+}
+.login-section{
+	display: block;
+	background-image: url("../img/bg.png");
+	background-size: cover;
+	background-color: #f3f7f9;
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+}
+.setlabel{
+	font-size: 1.3rem;
+	font-family: "Century Gothic";
+}
+.setButton{
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	transition: all .3s;
+}
+.setButton:hover{
+	transform: translateY(3px);
+}
+.form-group i {
+	margin-top: -25px;
+	padding-left: 15px;
+}
+.setImg{
+	width: 150px;
+	height: 150px;
+}
+.setLine{
+	display:inline-block;
+}
+.btnAnimate{
+	transition: all .2s;
+}
+.btnAnimate:hover{
+	transform: translateX(2px);
+}
+.imgSet{
+	width: 400px;
+	height: 400px;
+	margin-top: 200px;
+}
+.sign-up-section{
+	display: block;
+	background-image: url("../img/bg.png");
+	background-size: cover;
+	background-color: #f3f7f9;
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+}
+.icon{
+	font-size: 25px;
+	margin-top: 2px;
+}
+.p-img{
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.img-line{
+	width: 250px;
+	height: 210px;
+}
+.cardAnimation{
+	transition: all .3s;
+}
+.cardAnimation:hover{
+	transform: translateY(3px);
+}
+.setDropdown:focus{
+	border: transparent;
+	outline: none;
+}
+.hero-car{
+	padding: 0;
+	margin-left: 0;
+}
+.hero-car img{
+	width: 100%;
+	height: 93vh;
+}
+.carousel-caption {
+	top: 40%;
+	bottom: auto;
+}
+#hero{
+	padding-left: 0;
+	margin-right: 0;
+	background-image: url("../img/backgound3.jpg");
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 94.1vh;
+}
+.padding-0{
+	padding-right:0;
+	padding-left:0;
+}
+.bgText{
+	padding-top: 230px;
+	bottom: auto;
+}
+.setLogo{
+	width: 200px;
+	height: 200px;
+}
+.icon-parent{
+	position: relative;
+}
+.icon-bullet::after{
+	content: "";
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	height: 12px;
+	width: 12px;
+	background-color: #8a082f;
+	border-radius: 50%;
+}
+@media (max-width: 768px){
+	.sidebar{
+		position: static;
+		height: auto;
+	}
+	.top-navbar{
+		position: static;
+	}
+	.setText{
+		display: block;
+	}
+}
+.card-common {
+	box-shadow: 1px 2px 5px #999;
+}
+.setUser a {
+	text-decoration: none;
+}
+.setUser img{
+	transition: all .3s;
+}
+.setUser img:hover {
+	transform: translateY(-1px);
+}
+.modal-dialog{
+	overflow-y: initial !important
+}
+.modal-body{
+	height: 500px;
+	overflow-y: auto;
+}
